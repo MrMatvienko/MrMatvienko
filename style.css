@@ -1,4 +1,5 @@
 body {
+  margin: 0;
   font-family: "Roboto", sans-serif;
   background-color: #1b1b1b;
   color: white;
@@ -25,11 +26,14 @@ ul {
 img {
   display: block;
 }
+section {
+  margin-bottom: 40px;
+}
 .container {
   min-width: 320px;
-  max-width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
+  max-width: 1180px;
+  padding-left: 30px;
+  padding-right: 30px;
   margin: 0 auto;
 }
 .header {
@@ -39,6 +43,7 @@ img {
   align-items: center;
   width: 100%;
   height: 40px;
+  margin-bottom: 80px;
 }
 .header-navigation {
   right: 0;
@@ -47,4 +52,38 @@ img {
 .header-menu {
   display: flex;
   gap: 15px;
+}
+.info-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+.info-photo {
+  background-color: black;
+  border-radius: 40%;
+}
+.info-text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.info-title {
+  position: relative;
+  max-width: 600px;
+}
+.info-text {
+  max-width: 600px;
+}
+.info-title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 550px;
+  height: 1px;
+  background-color: white;
+}
+.gallery-section {
+  display: flex;
+  justify-content: center;
 }
