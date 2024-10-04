@@ -67,6 +67,9 @@ section {
   flex-direction: column;
   gap: 20px;
 }
+.info-main-title {
+  max-width: 352px;
+}
 .info-title {
   position: relative;
   max-width: 600px;
@@ -87,4 +90,34 @@ section {
 .stack-section {
   display: flex;
   justify-content: center;
+}
+
+.gallery-list {
+  display: flex;
+  gap: 20px;
+}
+.stack-wrapper,
+.gallery-wraper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.stack-title,
+.gallery-title {
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.stack-list {
+  display: flex;
+
+  gap: 20px;
+}
+.stack-list-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border: 1px solid white;
+  border-radius: 15px;
 }
