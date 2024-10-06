@@ -94,25 +94,23 @@ section {
 
 .gallery-list {
   width: 100%;
+  padding: 0;
   display: flex;
-  justify-content: space-evenly;
-  perspective: 1200px;
-  transform-style: preserve-3d;
-  will-change: transform;
+  justify-content: space-around;
+  gap: 4px;
 }
 .gallery-list-item {
   width: 160px;
   height: 190px;
-  border: 1px solid white;
+  border: none;
   border-radius: 20px;
   overflow: hidden;
   transition: all 500ms ease;
+  transform: rotateY(45deg);
   cursor: pointer;
-  transform: rotateY(65deg);
 }
 .gallery-list-item:hover {
   width: 360px;
-  border: 1px solid rgb(231, 227, 223);
   box-shadow: 1px 1px 1px rgb(223, 213, 213), 0 0 2em rgb(231, 227, 223),
     0 0 0.2em rgb(179, 177, 167);
   transform: rotateY(0deg);
