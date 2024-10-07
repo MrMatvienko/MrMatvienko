@@ -17,36 +17,40 @@
   </head>
 
   <body>
-    <header class="container header">
-      <nav class="header-navigation">
-        <ul class="header-menu">
-          <li>About</li>
-          <li>Gallery</li>
-          <li>Stack</li>
-          <li>Contact</li>
-        </ul>
-      </nav>
+    <header class="header">
+      <div class="header-container">
+        <nav class="header-navigation">
+          <ul class="header-menu">
+            <li class="header-menu-item">About</li>
+            <li class="header-menu-item">Gallery</li>
+            <li class="header-menu-item">Stack</li>
+            <li class="header-menu-item">Contact</li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <main class="container">
       <section class="info-section">
         <div class="info-container">
-          <img class="info-photo" src="./image/myphoto.png" alt="my photo" />
+          <img class="info-photo" src="./image/myface.png" alt="my photo" />
           <div class="info-text-container">
             <h1 class="info-main-title">MATVIIENKO MYKOLA</h1>
             <h2>FRONT-END DEVELOPER</h2>
-            <h2 class="info-title">About me</h2>
-            <p class="info-text">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Similique quo expedita incidunt omnis veniam. Quae in quis numquam
-              facere repudiandae unde corporis, nam dolorem beatae commodi
-              suscipit, minima molestias hic?
-            </p>
+            <div>
+              <h2 class="info-title">About me</h2>
+              <p class="info-text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Similique quo expedita incidunt omnis veniam. Quae in quis
+                numquam facere repudiandae unde corporis, nam dolorem beatae
+                commodi suscipit, minima molestias hic?
+              </p>
+            </div>
           </div>
         </div>
       </section>
 
-      <section class="gallery-section">
+      <section class="gallery-section container">
         <div class="gallery-wraper">
           <h2 class="gallery-title">Gallery of my jobs</h2>
           <ul class="gallery-list">
@@ -72,7 +76,7 @@
         </div>
       </section>
 
-      <section class="stack-section">
+      <!-- <section class="stack-section">
         <div class="stack-wrapper">
           <h2 class="stack-title">My Stack</h2>
           <ul class="stack-list">
@@ -83,8 +87,10 @@
             <li class="stack-list-item">Redux</li>
           </ul>
         </div>
-      </section>
+      </section> -->
     </main>
     <footer class="footer container"></footer>
+
+    <script src="./index.js"></script>
   </body>
 </html>
