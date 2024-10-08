@@ -30,7 +30,7 @@ section {
   margin-bottom: 40px;
 }
 .container {
-  min-width: 310px;
+  min-width: 290px;
   max-width: 1180px;
   padding-left: 15px;
   padding-right: 15px;
@@ -96,6 +96,7 @@ section {
 /*-----Info-----*/
 
 .info-container {
+  max-width: 900px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -105,12 +106,13 @@ section {
   margin: 0 auto;
 }
 .info-photo {
-  width: 200px;
-  height: 200px;
+  width: 240px;
+  height: 240px;
   background-color: rgb(0, 0, 0);
   border-radius: 40%;
 }
 .info-text-container {
+  max-width: 500px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -169,7 +171,7 @@ section {
 
 /*--------Gallery----------*/
 .gallery-list {
-  width: 280px;
+  width: 260px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -184,13 +186,11 @@ section {
   overflow: hidden;
   transition: all 500ms ease;
   cursor: pointer;
-  filter: grayscale(1);
 }
 .gallery-list-item:hover {
   box-shadow: 1px 1px 1px rgb(223, 213, 213), 0 0 2em rgb(231, 227, 223),
     0 0 0.2em rgb(179, 177, 167);
   scale: 1.05;
-  filter: none;
 }
 .gallery-img {
   width: 100%;
