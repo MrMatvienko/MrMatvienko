@@ -81,7 +81,7 @@ section {
   bottom: -10px;
 }
 
-/* .burger-menu.active {
+.burger-menu.active {
   background-color: transparent;
 }
 
@@ -93,7 +93,7 @@ section {
 .burger-menu.active::after {
   bottom: 0;
   transform: rotate(-45deg);
-} */
+}
 .header-menu {
   display: none;
   max-width: 1180px;
