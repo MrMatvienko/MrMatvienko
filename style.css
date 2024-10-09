@@ -41,10 +41,12 @@ section {
   display: flex;
   border-bottom: 1px solid #b7b8c2;
   background-color: black;
-  margin-bottom: 40px;
   width: 100vw;
   height: 60px;
-  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
 }
 
 .header-container {
@@ -99,6 +101,17 @@ section {
   max-width: 1180px;
   width: 100%;
 }
+.header-menu-item a {
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  cursor: pointer;
+  color: white;
+  transition: all 400ms ease;
+}
+.header-menu-item a:hover {
+  color: #397adb;
+}
 
 @media screen and (min-width: 340px) {
 }
@@ -124,16 +137,6 @@ section {
   .header-menu {
     gap: 15px;
   }
-  .header-menu-item {
-    font-size: 24px;
-    line-height: 1.5;
-    letter-spacing: 0.32px;
-    cursor: pointer;
-    transition: all 400ms ease;
-  }
-  .header-menu-item:hover {
-    color: #397adb;
-  }
 }
 @media screen and (min-width: 1180px) {
   .container {
@@ -143,9 +146,10 @@ section {
   }
 }
 
-/*------------------------SECTION-Info------------------------*/
+/*------------------------SECTION-INFO------------------------*/
 
 .info-container {
+  padding-top: 140px;
   max-width: 900px;
   width: 100%;
   display: flex;
@@ -280,11 +284,11 @@ section {
   }
   .gallery-list-item {
     width: calc((100% - 32px) / 3);
-    height: 190px;
+    height: 170px;
   }
 
   .gallery-img {
-    height: 190px;
+    height: 170px;
   }
 }
 
