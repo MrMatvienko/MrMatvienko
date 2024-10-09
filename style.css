@@ -158,8 +158,11 @@ section {
 .info-photo {
   width: 240px;
   height: 240px;
+  border-radius: 50%;
   background-color: rgb(0, 0, 0);
-  border-radius: 40%;
+  box-shadow: -5px 5px 5px rgba(223, 213, 213, 0.5),
+    /* Ліва та нижня тіні */ 0 0 3em rgba(231, 227, 223, 0.5),
+    /* Додаткова нижня м'яка тінь */ -1px 1px 0.1em rgba(179, 177, 167, 0.5); /* Ліва та нижня м'яка тінь */
 }
 .info-text-container {
   max-width: 500px;
@@ -219,7 +222,7 @@ section {
   }
 }
 
-/*------------------------SECTION-Gallery--------------------*/
+/*------------------------SECTION-GALLERY--------------------*/
 .gallery-list {
   width: 260px;
   display: flex;
@@ -285,7 +288,7 @@ section {
   }
 }
 
-/*---------------------SECTION-Stack------------------------*/
+/*---------------------SECTION-STACK------------------------*/
 
 .stack-wrapper {
   display: flex;
@@ -309,11 +312,25 @@ section {
   gap: 5px;
   justify-content: center;
   align-items: center;
-  width: 60px;
-  height: 60px;
+  width: 90px;
+  height: 90px;
 }
+.stack-item-svg {
+  width: 90px;
+  height: 90px;
+  animation: rotateSkills 4s infinite linear;
+}
+
 .stack-item-title {
   font-size: 12px;
+}
+@keyframes rotateSkills {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
 }
 @media screen and (min-width: 340px) {
 }
@@ -331,6 +348,8 @@ section {
     width: 100px;
     height: 100px;
   }
-}
-@media screen and (min-width: 1180px) {
+  .stack-item-svg {
+    width: 100px;
+    height: 100px;
+  }
 }
