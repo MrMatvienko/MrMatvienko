@@ -431,3 +431,35 @@ section {
     height: 100px;
   }
 }
+/*------------------------SECTION-FOOTER--------------------*/
+.footer {
+  border-top: 1px solid #b7b8c2;
+  border: none;
+}
+.footer-wraper {
+  height: 300px;
+  padding: 30px;
+}
+.social,
+.socila-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.socila-list {
+  gap: 10px;
+}
+.socila-list-item {
+  width: 30px;
+  height: 30px;
+}
+.social-item-svg {
+  width: 30px;
+  height: 30px;
+}
+@media screen and (min-width: 340px) {
+}
+@media screen and (min-width: 760px) {
+}
+@media screen and (min-width: 1180px) {
+}
