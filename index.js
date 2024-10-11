@@ -79,7 +79,7 @@ function handleItemClick(event) {
 function createModal(project) {
   const modal = document.querySelector(".modal");
   const modalContent = document.querySelector(".modal-content");
-
+  document.body.style.overflow = "hidden";
   modalContent.innerHTML = `
     <span class="close-button">&times;</span>
     <h2>${project.title}</h2>
@@ -103,4 +103,5 @@ function createModal(project) {
 function closeModal() {
   const modal = document.getElementById("modal");
   modal.classList.remove("show");
+  document.body.style.overflow = "";
 }
