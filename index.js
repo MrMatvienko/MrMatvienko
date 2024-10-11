@@ -62,6 +62,7 @@ const galleryItem = document.querySelectorAll(".gallery-list-item");
 
 galleryItem.forEach((item) => {
   item.addEventListener("click", handleItemClick);
+  item.addEventListener("touchstart", handleItemClick);
 });
 
 function handleItemClick(event) {
@@ -90,6 +91,7 @@ function createModal(project) {
 
   const closeButton = modalContent.querySelector(".close-button");
   closeButton.addEventListener("click", closeModal);
+  closeButton.addEventListener("touchend", closeModal);
 
   modal.addEventListener("click", function (event) {
     if (event.target === modal) {
