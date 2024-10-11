@@ -471,7 +471,7 @@ section {
   transition: all 400ms ease;
 }
 .socila-list-item:hover a {
-  background-color: #931ed6;
+  background-color: #000000;
   fill: white;
 }
 .social-contact {
@@ -501,4 +501,52 @@ section {
   .link-span {
     font-size: 20px;
   }
+}
+/*-----------------Modal----CARD--INFO------------------*/
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.4s ease, visibility 0.4s ease;
+}
+
+.modal.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal-content {
+  background-color: #18191d;
+  padding: 20px;
+  border-radius: 5px;
+  position: relative;
+  max-width: 900px;
+  width: 90%;
+}
+.modal-content img {
+  width: 400px;
+  height: 200px;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #f1eded;
+  cursor: pointer;
+}
+
+.close-button:hover {
+  color: #000;
 }
