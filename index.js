@@ -2,44 +2,53 @@ const projects = [
   {
     id: "fitness",
     title: "Fitness App",
-    description: "Опис Fitness App...",
+    description:
+      "Fitness App - this is a web application for those who wish to have access to a database of exercises, with a detailed analysis of the execution technique.",
     image: "./image/fitness.jpg",
     role: "developer",
+    link: "https://mykyta-ushakow.github.io/Gym-squad/index.html",
   },
   {
     id: "vagetables",
-    title: "Fitness App",
-    description: "Опис Fitness App...",
+    title: "Vagetables Store",
+    description:
+      "An organic products and fresh vegetables store for those who want to live a healthy lifestyle.",
     image: "./image/vagetables.jpg",
     role: "developer",
+    link: "https://iame1off.github.io/project-wonderful-nine/",
   },
   {
     id: "taskpro",
-    title: "Fitness App",
-    description: "Опис Fitness App...",
+    title: "Task Manager",
+    description:
+      "A task manager for team collaboration, as well as for individuals who enjoy tracking task progress.",
     image: "./image/taskpro.jpg",
     role: "developer",
+    link: "https://annanadvor.github.io/taskPro_project-group-6/",
   },
   {
     id: "web-studio",
-    title: "Fitness App",
+    title: "Web-Studio",
     description: "Опис Fitness App...",
     image: "./image/web-studio.jpg",
     role: "developer",
+    link: "https://mrmatvienko.github.io/web-studio/",
   },
   {
     id: "rental-camper",
-    title: "Fitness App",
+    title: "Rental Camper",
     description: "Опис Fitness App...",
     image: "./image/rental-camper.jpg",
     role: "developer",
+    link: "https://mrmatvienko.github.io/rental-campers/",
   },
   {
     id: "slots",
-    title: "Fitness App",
+    title: "Slots playing",
     description: "Опис Fitness App...",
     image: "./image/slots.jpg",
     role: "developer",
+    link: "https://mrmatvienko.github.io/SimpleSlot/",
   },
 ];
 
@@ -101,8 +110,15 @@ function createModal(project) {
   modalContent.innerHTML = `
     <span class="close-button">&times;</span>
     <h2>${project.title}</h2>
+    <div class="modal-info-container">
     <img src="${project.image}" alt="${project.title}">
+    <div class="modal-descriptions">
+    <a href="${project.link}" >Go to web-site --></a>
+    <p>My role in the team: ${project.role} </p>
     <p>${project.description}</p>
+    </div>
+    </div>
+
   `;
 
   modal.classList.add("show");
