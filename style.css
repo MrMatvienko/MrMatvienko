@@ -291,6 +291,11 @@ section {
   background-position: center;
   background-repeat: no-repeat;
 }
+.gallery-list-item:hover {
+  box-shadow: 1px 1px 1px rgb(51, 49, 49), 0 0 2em rgb(46, 45, 44),
+    0 0 0.2em rgb(179, 177, 167);
+  scale: 1.05;
+}
 .fitness {
   background-image: url(./image/fitness.jpg);
 }
