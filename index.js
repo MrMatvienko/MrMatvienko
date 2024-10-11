@@ -60,9 +60,27 @@ menuLinks.forEach((link) => {
 
 const galleryItem = document.querySelectorAll(".gallery-list-item");
 
+let touchStartX = 0;
+let touchStartY = 0;
+
 galleryItem.forEach((item) => {
   item.addEventListener("click", handleItemClick);
-  item.addEventListener("touchstart", handleItemClick);
+  item.addEventListener("touchstart", (event) => {
+    touchStartX = event.touches[0].clientX;
+    touchStartY = event.touches[0].clientY;
+  });
+
+  item.addEventListener("touchend", (event) => {
+    const touchEndX = event.changedTouches[0].clientX;
+    const touchEndY = event.changedTouches[0].clientY;
+
+    if (
+      Math.abs(touchStartX - touchEndX) < 10 &&
+      Math.abs(touchStartY - touchEndY) < 10
+    ) {
+      handleItemClick(event);
+    }
+  });
 });
 
 function handleItemClick(event) {
