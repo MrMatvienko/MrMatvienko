@@ -309,11 +309,7 @@ section {
 .slots {
   background-image: url(./image/slots.jpg);
 }
-.gallery-list-item:hover {
-  box-shadow: 1px 1px 1px rgb(51, 49, 49), 0 0 2em rgb(46, 45, 44),
-    0 0 0.2em rgb(179, 177, 167);
-  scale: 1.05;
-}
+
 .gallery-section,
 .stack-section {
   display: flex;
@@ -364,6 +360,11 @@ section {
   .gallery-list-item {
     width: calc((100% - 32px) / 3);
     height: 170px;
+  }
+  .gallery-list-item:hover {
+    box-shadow: 1px 1px 1px rgb(51, 49, 49), 0 0 2em rgb(46, 45, 44),
+      0 0 0.2em rgb(179, 177, 167);
+    scale: 1.05;
   }
 }
 
