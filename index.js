@@ -29,7 +29,8 @@ const projects = [
   {
     id: "web-studio",
     title: "Web-Studio",
-    description: "Опис Fitness App...",
+    description:
+      "Web-Studio - pet project focused on improving static layout development as well as general HTML and CSS concepts. It features responsive design with three breakpoints: 320px, 768px, and 1158px. Adaptive images were used for monitors with different pixel densities.",
     image: "./image/web-studio.jpg",
     role: "developer",
     link: "https://mrmatvienko.github.io/web-studio/",
@@ -37,7 +38,8 @@ const projects = [
   {
     id: "rental-camper",
     title: "Rental Camper",
-    description: "Опис Fitness App...",
+    description:
+      "Rental Camper - pet project utilizing Redux. A mock API service was used as the backend. The project was developed in a web format.",
     image: "./image/rental-camper.jpg",
     role: "developer",
     link: "https://mrmatvienko.github.io/rental-campers/",
@@ -45,7 +47,8 @@ const projects = [
   {
     id: "slots",
     title: "Slots playing",
-    description: "Опис Fitness App...",
+    description:
+      " Slots playing - pet project implemented with vanilla JavaScript, aimed at developing the ability to use asynchronous functions like setTimeout().",
     image: "./image/slots.jpg",
     role: "developer",
     link: "https://mrmatvienko.github.io/SimpleSlot/",
