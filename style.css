@@ -231,6 +231,32 @@ section {
   background-color: rgb(241, 234, 245);
 }
 
+.info-link-cv {
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  border-radius: 25px;
+  width: 160px;
+  height: 40px;
+  background-color: white;
+  color: #000;
+  cursor: pointer;
+  transition: all 400ms ease;
+}
+.info-donwload-icon {
+  fill: black;
+  transition: all 400ms ease;
+}
+.info-link-cv:hover {
+  color: white;
+  background-color: black;
+}
+.info-link-cv:hover svg {
+  fill: white;
+}
 @media screen and (min-width: 760px) {
   .info-container {
     display: flex;
