@@ -7,6 +7,7 @@ const projects = [
     image: "./image/fitness.jpg",
     role: "developer",
     link: "https://mykyta-ushakow.github.io/Gym-squad/index.html",
+    technology: "HTML, CSS, JS",
   },
   {
     id: "vagetables",
@@ -16,6 +17,7 @@ const projects = [
     image: "./image/vagetables.jpg",
     role: "developer",
     link: "https://iame1off.github.io/project-wonderful-nine/",
+    technology: "HTML, CSS, JS",
   },
   {
     id: "taskpro",
@@ -25,6 +27,7 @@ const projects = [
     image: "./image/taskpro.jpg",
     role: "developer",
     link: "https://annanadvor.github.io/taskPro_project-group-6/",
+    technology: "HTML, CSS, REACT JS",
   },
   {
     id: "web-studio",
@@ -34,6 +37,7 @@ const projects = [
     image: "./image/web-studio.jpg",
     role: "developer",
     link: "https://mrmatvienko.github.io/web-studio/",
+    technology: "HTML, CSS, JS",
   },
   {
     id: "rental-camper",
@@ -43,6 +47,7 @@ const projects = [
     image: "./image/rental-camper.jpg",
     role: "developer",
     link: "https://mrmatvienko.github.io/rental-campers/",
+    technology: "HTML, CSS, REACT JS, REDUX",
   },
   {
     id: "slots",
@@ -52,6 +57,7 @@ const projects = [
     image: "./image/slots.jpg",
     role: "developer",
     link: "https://mrmatvienko.github.io/SimpleSlot/",
+    technology: "HTML, CSS, JS",
   },
 ];
 
@@ -116,7 +122,7 @@ function createModal(project) {
     <div class="modal-info-container">
     <img src="${project.image}" alt="${project.title}">
     <div class="modal-descriptions">
-    <a href="${project.link}" >Go to web-site --></a>
+    <a href="${project.link}" >Go to web-site &#8594;</a>
     <p>My role in the team: ${project.role} </p>
     <p>${project.description}</p>
     </div>
