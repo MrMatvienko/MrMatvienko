@@ -5,9 +5,14 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": " index.js"
+    "dev": "http-server -c-1 ./",
+    "start": "http-server -c-1 ./"
   },
   "keywords": [],
   "author": "Matviienko Mykola",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^14.1.1",
+    "swiper": "^11.1.14"
+  }
 }
