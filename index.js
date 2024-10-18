@@ -88,3 +88,26 @@ function closeModal() {
   modal.classList.remove("show");
   document.body.style.overflow = "";
 }
+
+/*---------STAR-ANIMATION-----------*/
+function createStar() {
+  const star = document.createElement("div");
+  star.classList.add("star");
+
+  star.style.left = `${Math.random() * 100}vw`;
+  star.style.top = `${-Math.random() * 5}vh`;
+
+  const duration = Math.random() * 15 + 3;
+  star.style.animationDuration = `${duration}s`;
+
+  const size = Math.random() * 3 + 1;
+  star.style.width = `${size}px`;
+  star.style.height = `${size}px`;
+
+  document.getElementById("stars-container").appendChild(star);
+
+  setTimeout(() => {
+    star.remove();
+  }, duration * 1000);
+}
+setInterval(createStar, 100);
