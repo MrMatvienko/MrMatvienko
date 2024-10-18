@@ -11,6 +11,10 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,100;1,400&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="./style.css" />
     <title>Matviienko Mykola</title>
   </head>
@@ -104,7 +108,34 @@
       </section>
 
       <section class="gallery-section" id="gallery">
-        <div class="gallery-wraper">
+        <h2 class="gallery-title">Gallery of my projects</h2>
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="gallery-list-item fitness swiper-slide">
+              <p class="gallery-item-text">Fitness</p>
+            </div>
+            <div class="gallery-list-item vagetables swiper-slide">
+              <p class="gallery-item-text">Vagatables Shop</p>
+            </div>
+            <div class="gallery-list-item taskpro swiper-slide">
+              <p class="gallery-item-text">Task Manager</p>
+            </div>
+            <div class="gallery-list-item web-studio swiper-slide">
+              <p class="gallery-item-text">Web-Studio</p>
+            </div>
+            <div class="gallery-list-item rental-camper swiper-slide">
+              <p class="gallery-item-text">Rental Place</p>
+            </div>
+            <div class="gallery-list-item slots swiper-slide">
+              <p class="gallery-item-text">Slots Playing</p>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-scrollbar"></div>
+        </div>
+        <!-- <div class="gallery-wraper">
           <h2 class="gallery-title">Gallery of my projects</h2>
           <ul class="gallery-list">
             <li class="gallery-list-item fitness">
@@ -126,7 +157,7 @@
               <p class="gallery-item-text">Slots Playing</p>
             </li>
           </ul>
-        </div>
+        </div> -->
       </section>
 
       <section class="stack-section" id="stack">
@@ -234,5 +265,8 @@
     </div>
 
     <script src="./index.js" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="./swiper.js"></script>
   </body>
 </html>
