@@ -67,7 +67,6 @@ function createModal(project) {
     <p>${project.description}</p>
     </div>
     </div>
-
   `;
 
   modal.classList.add("show");
