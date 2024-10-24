@@ -40,14 +40,14 @@ export const projects = [
     technology: "HTML, CSS, JS",
   },
   {
-    id: "rental-camper",
+    id: "movies",
     title: "Rental Camper",
     description:
-      "Rental Camper - pet project utilizing Redux. A mock API service was used as the backend. The project was developed in a web format.",
-    image: "./image/rental-camper.jpg",
+      "Movies Info is a pet project developed using React. An API is used to retrieve an up-to-date list of movies, along with descriptions, cast information, and reviews.",
+    image: "./image/films.jpg",
     role: "developer",
-    link: "https://mrmatvienko.github.io/rental-campers/",
-    technology: "HTML, CSS, REACT JS, REDUX",
+    link: "https://mrmatvienko.github.io/movies-info/",
+    technology: "HTML, CSS, REACT JS, Styled Components ",
   },
   {
     id: "slots",
