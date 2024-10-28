@@ -41,7 +41,7 @@ galleryItem.forEach((item) => {
 });
 
 function handleItemClick(event) {
-  const itemId = event.currentTarget.classList[1];
+  const itemId = event.currentTarget.getAttribute("data-id");
   const projectData = projects.find((project) => project.id === itemId);
 
   if (projectData) {

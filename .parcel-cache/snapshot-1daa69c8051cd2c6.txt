@@ -1,4 +1,4 @@
-5881
+5885
 62C:\MyPortfolio\node_modules\lines-and-columns\build\index.d.ts133745806863177407 0
 58C:\MyPortfolio\node_modules\@parcel\compressor-raw\LICENSE133745806865681143 0
 91C:\MyPortfolio\node_modules\@parcel\optimizer-svgo\node_modules\svgo\plugins\mergeStyles.js133745806874936431 0
@@ -13,7 +13,7 @@
 52C:\MyPortfolio\node_modules\abortcontroller-polyfill133745806870781720 1
 50C:\MyPortfolio\node_modules\semver\functions\eq.js133745806868275295 0
 60C:\MyPortfolio\node_modules\cosmiconfig\dist\readFile.js.map133745806875953688 0
-19C:\MyPortfolio\dist133745824153595007 1
+19C:\MyPortfolio\dist133745880824226324 1
 48C:\MyPortfolio\node_modules\json5\lib\unicode.js133745806866887906 0
 56C:\MyPortfolio\node_modules\@parcel\reporter-cli\LICENSE133745806866227550 0
 55C:\MyPortfolio\node_modules\source-map\lib\array-set.js133745806863436713 0
@@ -36,7 +36,7 @@
 27C:\MyPortfolio\node_modules133745807005160092 1
 68C:\MyPortfolio\node_modules\csso\node_modules\css-tree\dist\data.cjs133745806876522170 0
 46C:\MyPortfolio\node_modules\timsort\LICENSE.md133745806863045541 0
-22C:\MyPortfolio\main.js133737238089077644 0
+22C:\MyPortfolio\main.js133745880438791953 0
 66C:\MyPortfolio\node_modules\css-tree\lib\tokenizer\adopt-buffer.js133745806884769867 0
 44C:\MyPortfolio\node_modules\svgo\lib\svgo.js133745806874657156 0
 75C:\MyPortfolio\node_modules\css-tree\lib\syntax\node\PseudoClassSelector.js133745806888337815 0
@@ -71,7 +71,7 @@
 66C:\MyPortfolio\node_modules\@parcel\transformer-babel\package.json133745806873186481 0
 58C:\MyPortfolio\node_modules\type-fest\source\asyncify.d.ts133745806863446701 0
 46C:\MyPortfolio\node_modules\@swc\types\LICENSE133745806861252612 0
-25C:\MyPortfolio\index.html133745822072549644 0
+25C:\MyPortfolio\index.html133745880212271706 0
 51C:\MyPortfolio\node_modules\entities\lib\index.d.ts133745806873507156 0
 52C:\MyPortfolio\node_modules\source-map\source-map.js133745806862457134 0
 27C:\MyPortfolio\package.json133745824024616048 0
@@ -101,7 +101,7 @@
 56C:\MyPortfolio\node_modules\cosmiconfig\dist\Explorer.js133745806863466646 0
 73C:\MyPortfolio\node_modules\csso\lib\restructure\2-initialMergeRuleset.js133745806878229306 0
 48C:\MyPortfolio\node_modules\ansi-styles\index.js133745806860993312 0
-26C:\MyPortfolio\projects.js133745817478775914 0
+26C:\MyPortfolio\projects.js133745870360991616 0
 45C:\MyPortfolio\node_modules\parcel\lib\cli.js133745806868704137 0
 59C:\MyPortfolio\node_modules\caniuse-lite\data\regions\HT.js133745806891068062 0
 72C:\MyPortfolio\node_modules\caniuse-lite\data\features\xml-serializer.js133745806896728138 0
@@ -1305,6 +1305,7 @@
 56C:\MyPortfolio\node_modules\semver\ranges\min-version.js133745806873326106 0
 75C:\MyPortfolio\node_modules\@parcel\transformer-html\lib\HTMLTransformer.js133745806866197626 0
 49C:\MyPortfolio\node_modules\css-tree\cjs\data.cjs133745806874105560 0
+37C:\MyPortfolio\dist\index.63aff760.js133745880439320557 0
 52C:\MyPortfolio\node_modules\semver\ranges\outside.js133745806873906093 0
 89C:\MyPortfolio\node_modules\node-gyp-build-optional-packages\node_modules\detect-libc\lib133745806868833792 1
 40C:\MyPortfolio\node_modules\css-tree\cjs133745806884560418 1
@@ -3969,6 +3970,7 @@
 68C:\MyPortfolio\node_modules\caniuse-lite\data\features\object-fit.js133745806893466393 0
 74C:\MyPortfolio\node_modules\caniuse-lite\data\features\array-find-index.js133745806874085611 0
 68C:\MyPortfolio\node_modules\caniuse-lite\data\features\array-flat.js133745806874986281 0
+41C:\MyPortfolio\dist\index.63aff760.js.map133745880439370556 0
 62C:\MyPortfolio\node_modules\@parcel\graph\src\AdjacencyList.js133745806867316754 0
 91C:\MyPortfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\mdn-data\css\types.json133745806872967066 0
 72C:\MyPortfolio\node_modules\caniuse-lite\data\features\array-includes.js133745806875185753 0
@@ -5418,7 +5420,7 @@
 110C:\MyPortfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\removeAttributesBySelector.js133745806876681755 0
 95C:\MyPortfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\removeAttrs.js133745806876861262 0
 98C:\MyPortfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\removeComments.js133745806877471334 0
-30C:\MyPortfolio\dist\index.html133745824153535182 0
+30C:\MyPortfolio\dist\index.html133745880824126711 0
 94C:\MyPortfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\removeDesc.js133745806877720663 0
 100C:\MyPortfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\removeDimensions.js133745806877999915 0
 103C:\MyPortfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\removeEditorsNSData.js133745806878269273 0
@@ -5546,6 +5548,7 @@
 102C:\MyPortfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\node\String.js133745806883953897 0
 108C:\MyPortfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\node\TypeSelector.js133745806884341008 0
 108C:\MyPortfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\node\UnicodeRange.js133745806884370930 0
+41C:\MyPortfolio\dist\index.f48fb096.js.map133745880824226324 0
 99C:\MyPortfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\node\Url.js133745806884410828 0
 106C:\MyPortfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\node\WhiteSpace.js133745806884680109 0
 110C:\MyPortfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\function\expression.js133745806878378895 0
@@ -5830,6 +5833,7 @@
 63C:\MyPortfolio\node_modules\@lmdb\lmdb-win32-x64\node.napi.node133745806875155822 0
 61C:\MyPortfolio\node_modules\@lmdb\lmdb-win32-x64\package.json133745806861122966 0
 41C:\MyPortfolio\node_modules\@lezer\common133745806867488827 1
+37C:\MyPortfolio\dist\index.f48fb096.js133745880824126711 0
 42C:\MyPortfolio\node_modules\@lezer\lr\dist133745806868694164 1
 47C:\MyPortfolio\node_modules\@lezer\lr\README.md133745806868135660 0
 57C:\MyPortfolio\node_modules\@lezer\lr\dist\constants.d.ts133745806868474752 0
