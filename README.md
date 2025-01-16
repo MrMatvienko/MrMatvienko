@@ -23,4 +23,5 @@ Completed the "Fullstack Developer" course from GoIt Academy.
 ## Contact
 - 📫 Email: nikolay1.matvienko@gmail.com
 - 💼 LinkedIn: https://www.linkedin.com/in/mykolay-matvienko
-- 🌐 Портфоліо: https://mrmatvienko.github.io/MyPortfolio/
+- 🌐 Portfolio: https://mrmatvienko.github.io/MyPortfolio/
+- 👋 Telegram: @Nikmat66
