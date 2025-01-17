@@ -370,6 +370,9 @@ section {
 .slots {
   background-image: url(./image/slots.jpg);
 }
+.master-class {
+  background-image: url(./image/masterclass.jpg);
+}
 
 .gallery-section,
 .stack-section {

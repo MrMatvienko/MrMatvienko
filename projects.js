@@ -1,5 +1,15 @@
 export const projects = [
   {
+    id: "masterclass",
+    title: "Master Class Studio",
+    description:
+      "Master class studio - a selection of popular master classes for every taste",
+    image: new URL("./image/masterclass.jpg", import.meta.url).href,
+    role: "developer/seo-manager",
+    link: "https://kvitnu.com.ua/",
+    technology: "HTML, CSS, JS, VITE",
+  },
+  {
     id: "fitness",
     title: "Fitness App",
     description:
