@@ -8,7 +8,7 @@ I am a beginner Frontend developer with a passion for creating intuitive and cre
 -  Worked in a team to create a database of exercises.
 
 ## Technologies and tools
-- **Landuages:** JavaScript (ES6+), HTML5, CSS3
+- **Languages:** JavaScript (ES6+), HTML5, CSS3
 - **Frameworks:** React, Redux, React toolkit
 - **Tools:** Git, Webpack, Parcel, Vite
 - **Design:** Figma
