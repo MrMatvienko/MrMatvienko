@@ -18,7 +18,6 @@ Completed the "Fullstack Developer" course from GoIt Academy.
 
 ## What am I studying now?
 - **TypeScript**
-- **SEO (search engine optimization)**
 
 ## Contact
 - 📫 Email: nikolay1.matvienko@gmail.com
